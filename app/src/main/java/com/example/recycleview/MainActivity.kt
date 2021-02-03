@@ -17,7 +17,9 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var recyclerView: RecyclerView
 
+
     override fun onCreate(savedInstanceState: Bundle?)
+
     {
         super.onCreate(savedInstanceState)
 
@@ -32,8 +34,13 @@ class MainActivity : AppCompatActivity() {
 
         val photos = ArrayList<Image>()
 
-        photos.add(Image("https://upload.wikimedia.org/wikipedia/en/d/d3/The_Queen%27s_Gambit.jpg"))
+
+        photos.add(Image("https://static.adjaranet.com/m_posters/856/14528149677.jpg"))
+        photos.add(Image("https://newposts.ge/img/photos2/1548233257823656.jpg"))
+        photos.add(Image("https://images2.minutemediacdn.com/image/fetch/c_fill,g_auto,f_auto,h_2731,w_1889/https%3A%2F%2Fwinteriscoming.net%2Ffiles%2F2019%2F04%2FGOT-Aftermath.jpeg"))
         photos.add(Image("https://static.displate.com/857x1200/displate/2020-01-10/984d8af66d977e48f1d092fa20a27f01_300ac161ed433db245bcb7856dacdf4a.jpg"))
+        photos.add(Image("https://lh3.googleusercontent.com/proxy/Uxg9rajV0MJa_HTfu4TSM_Wq8Xrw6av95pj4YwzEV3lL4fMHaMhBjfYvKLKKByqdUJDz-Y5CXhHiyHEYeg"))
+        photos.add(Image("https://upload.wikimedia.org/wikipedia/en/d/d3/The_Queen%27s_Gambit.jpg"))
         photos.add(Image("https://pyxis.nymag.com/v1/imgs/098/d6b/1cf5b0130b1203cd01c48057330744cdc9-19-gg-s3.2x.w710.jpg"))
         photos.add(Image("https://i.ebayimg.com/images/g/lVcAAOSwsU5c~8iD/s-l300.jpg"))
         photos.add(Image("https://dobienews.scuc.txed.net/wp-content/uploads/2017/05/img-1.jpg"))
